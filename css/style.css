@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #17a2b8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ 
+.main button {
+    width: 355px;
+    height: 80px;
+    color: #17a2b8;
+    font-size: 40px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+
+}
+
+.key-press {
+    color: white;
+    width: 1360px;
+    height: 451px;
+    text-align: center;
+    display: none;
+}
+
+.key-press__circle {
+    width: 250px;
+    height: 250px;
+    background: #17a2b8;
+    font-size: 60px;
+    font-weight: 700;
+    border: 5px solid white;
+    border-radius: 50%;
+    line-height: 250px;
+    margin: 0 auto 70px;
+}
+
+.key-press__body {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.key-press__box {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.key-press__box-header {
+    height: 50%;
+    background-color: #78c0c9;
+    line-height: 50px;
+}
+
+.key-press__box-body {
+    color: black;
+    line-height: 50px;
+}
+
+.box-key,.box-which,.box-location,.box-code {
+    overflow: hidden;
+}
+
+.box-key .key-press__box-body {
+    text-transform: uppercase;
+}
